@@ -1,0 +1,50 @@
+.logo{
+   height: 60px;
+   width: 100%;
+   background-color: rgb(217, 234, 239);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bolder;
+}
+.nav{
+   height: 60px;
+   width: 100%;
+   background-color: rgb(217, 234, 239);
+   margin-top: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Home, .Products, .Services, .About, .Contact{
+   margin: 10px;
+}
+.feature{
+   height: 300px;
+   width: 100%;
+   background-color: rgb(217, 234, 239);
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+}
+.main{
+   display: flex;
+}
+.one, .two, .three{
+   height: 300px;
+   width: 33%;
+   background-color: rgb(217, 234, 239);
+   display: flex;
+   margin: 10px;
+}
+.copy{
+   height: 70px;
+   width: 100%;
+   background-color: rgb(217, 234, 239);
+   margin-left: 6px;
+   margin-right: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+

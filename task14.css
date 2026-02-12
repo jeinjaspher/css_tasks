@@ -1,0 +1,70 @@
+.karka {
+    background-color: rgb(238, 235, 235);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px #ccc;
+}
+.first {
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: rgb(34, 33, 33);
+}
+.link {
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+}
+.end {
+    color: white;
+    margin-left: auto;
+}
+.main {
+    display: flex;
+    gap: 24px;
+    margin: 24px;
+}
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.one, .two {
+    background-color: rgb(168, 166, 166);
+    padding: 24px;
+    border-radius: 6px;
+}
+.img-box {
+    background-color: #bdbdbd;
+    height: 120px;
+    margin: 16px 0;
+    border-radius: 4px;
+}
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.side-box {
+    background-color: rgb(168, 166, 166);
+    padding: 16px;
+    border-radius: 6px;
+}
+.footer {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 24px;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+}

@@ -1,0 +1,65 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.container{
+   position: relative;
+   height: 500px;
+   width: 100%;
+   background-color: yellow;
+   border-radius: 30px;
+}
+.left{
+   position: relative;
+   border-top-left-radius: 30px;
+   height: 100%;
+   width: 70%;
+   background-color: red;
+   
+}
+.top{
+   position: relative;
+   height: 15%;
+   width: 100%;
+   background-color: green;
+}
+.bopass{
+   position: relative;
+   left: 200px;
+   top: 25px;
+   color: white;
+   font-weight: bolder;
+   font-size: 20px;
+}
+.travel{
+   position: relative;
+   left: 600px;
+   bottom: 10px;
+   color: white;
+   font-size: 40px;
+}
+.plane{
+   position: absolute;
+   z-index: 2;
+   font-size: 90px;
+   transform: rotate(270deg);
+   top: 5px;
+   left: 10px;
+}
+.img1{
+   position: absolute;
+   z-index: 1;
+   height: 50px;
+   width: 200px;
+   transform: rotate(90deg);
+   top: 200px;
+   left: -40px;
+}
+.bottom{
+   position: absolute;
+   height: 10%;
+   width: 100%;
+   background-color: green;
+   z-index: 5;
+   bottom: 0px;
+} 

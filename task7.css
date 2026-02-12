@@ -1,0 +1,40 @@
+
+.container{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+   
+}
+.header, .footer{
+   width: 100%;
+   height: 50px;
+   background-color: rgb(249, 193, 201);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.nav{
+   height: 30px;
+   width: 100%;
+   background-color: rgb(175, 98, 246);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.one{
+   display: flex;
+}
+.left{
+   height: 100px;
+   width: 30%;
+   background-color: rgb(241, 144, 241);display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+   height: 100px;
+   width: 70%;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

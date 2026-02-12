@@ -1,0 +1,40 @@
+.header, .footer{
+   height: 50px;
+   width: 100%;
+   background-color: lightgray;
+   margin: 5px;
+}
+.one{
+   display: flex;
+}
+.two{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+
+}
+.nav, .aside1{
+   height: 30px;
+   width: 100%;
+   background-color: lightgray;
+   margin: 5px;
+}
+.main{
+   height: 250px;
+   width: 50%;
+   background-color: lightgrey;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.aside, .section{
+   height: 123px;
+   width: 100%;
+   background-color: lightgray;
+   display: flex;
+
+
+}
+.section{
+   margin-top: 5px;
+
+}

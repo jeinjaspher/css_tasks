@@ -1,0 +1,64 @@
+#page{
+   height: 50px;
+   width: 300px;
+   background-color: rgb(60, 48, 48);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#nav{
+   height: 40px;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+  margin: 8px;
+  margin-bottom: 0px;
+}
+#intro{
+   height: 60px;
+   width: 100%;
+   background-color: gray;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.one{
+   display: flex;
+}
+#content{
+   height: 300px;
+   width: 60%;
+   background-color: rgb(60, 48, 48);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+#sidebar{
+   height: 300px;
+   width: 40%;
+   background-color: rgb(183, 180, 180);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+#footer{
+   height: 100px;
+   width: 100%;background-color: gray;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}

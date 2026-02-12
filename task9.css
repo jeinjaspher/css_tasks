@@ -1,0 +1,40 @@
+.container{
+   height: auto;
+   width: 506px;
+   background-color: rgb(222, 209, 209);
+   border: 1px solid black;
+   
+}
+.header, .nav, .footer{
+   width: 500px;
+   height: 80px;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2px;
+}
+.sub{
+   display: flex;
+   flex-direction: column;
+}
+.one{
+   display: flex;
+}
+.sec, .article{
+   height: 150px;
+   width: 300px;
+   border: 1px solid black;
+   
+}
+.aside{
+   height: 305.5px;
+   width: 200px;
+   border: 1px solid black;
+}
+.sec,.article,.aside{
+   margin: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

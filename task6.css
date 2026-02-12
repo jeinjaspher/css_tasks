@@ -1,0 +1,38 @@
+.container {
+   display: flex;     
+   flex-direction: column;      
+   height: 600px;           
+   width: 800px;            
+   border: 2px solid black;
+}
+
+.head {
+   flex: 2;               
+   background-color: lightpink;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav {
+   flex: 1;                
+   background-color: rgb(198, 65, 198);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main {
+   flex: 5;                
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer {
+   flex: 2;             
+   background-color: rgb(232, 145, 232);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
